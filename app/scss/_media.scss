@@ -1,0 +1,499 @@
+@media (max-width: 1219px) {
+    .about {
+        .card {
+            flex-direction: column;
+            align-items: center;
+            &:nth-child(3) {
+                img {
+                    order: -1;
+                }
+            }
+            &-img {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .contact {
+        &__inner {
+            flex-direction: column;
+        }
+        &__form {
+            &-btn {
+                padding: 20px 110px;
+            }
+        }
+        &__garant {
+            margin-left: 0;
+            margin-top: 40px;
+        }
+    }
+}
+
+@media (max-width: 1055px) {
+    .prom {
+        &__reser {
+            flex-direction: column;
+            &-item {
+                margin-top: 20px;
+            }
+        }
+        &__servis {
+            flex-direction: column;
+            &-form {
+                margin-left: 0;
+                margin-top: 220px;
+            }
+            &-change {
+                margin-bottom: 10px;
+            }
+        }
+        &__titlesecond {
+            font-size: 35px;
+        }
+        &__slider {
+            &-btnl,
+            &-btnr,
+            .slick-arrow:disabled {
+                color: #fff;
+            }
+        }
+    }
+}
+@media (max-width: 1000px) {
+    .reservation {
+        &__inner {
+            flex-direction: column;
+        }
+        &__text {
+            margin-top: 30px;
+            margin-left: 20;
+            &-item:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 880px) {
+    .header {
+        &__inner {
+            align-items: flex-start;
+            justify-content: space-between;
+            &-btn {
+                display: block;
+                z-index: 20;
+            }
+        }
+        &__navigation {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 75%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+            margin-top: 0;
+            margin-left: 50px;
+            transform: translateY(-350px);
+            transition: all 0.5s;
+            z-index: 11;
+            background-color: #fff;
+            &--open {
+                transform: translateY(0px);
+            }
+            &-nav {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+            &-item {
+                margin-right: 0;
+                width: 100%;
+                border-bottom: 1px solid black;
+            }
+            &-item,
+            &-contact {
+                margin-top: 20px;
+            }
+            &-link {
+                color: #000;
+            }
+            &-tel {
+                color: #000;
+            }
+            &__text {
+                display: flex;
+                justify-content: flex-end;
+                &-item {
+                    margin-top: 30px;
+                    &:nth-child(1) {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 841px) {
+    .prom {
+        &__slider {
+            height: 500px;
+            &-inner {
+                width: 600px;
+            }
+        }
+    }
+}
+@media (max-width: 700px) {
+    .about {
+        .card {
+            align-items: flex-start;
+            &__inner {
+                display: flex;
+            }
+            &__mainText {
+                flex-direction: column;
+            }
+            &__statisticNum-items {
+                margin-left: 30px;
+                flex-direction: column;
+                width: 110px;
+                border: none;
+                border-left: 1px solid #fff;
+                border-right: 1px solid #fff;
+            }
+        }
+    }
+}
+@media (max-width: 629px) {
+    .prom {
+        &__slider {
+            height: 500px;
+            &-inner {
+                width: 450px;
+            }
+        }
+    }
+}
+
+@media (max-width: 621px) {
+    .header {
+        &__title {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            &-btn {
+                font-size: 20px;
+                padding: 16px 10px;
+            }
+        }
+    }
+    .about {
+        .card {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 610px) {
+    .header {
+        &__title {
+            &-sometitle {
+                font-size: 55px;
+                text-align: center;
+            }
+            &-zag {
+                font-size: 70px;
+                text-align: center;
+            }
+            &-items {
+                width: 100%;
+                justify-content: space-around;
+            }
+            &-item {
+                margin-right: 0;
+            }
+        }
+        &__text {
+            justify-content: space-around;
+        }
+    }
+}
+
+@media (max-width: 592px) {
+    .header {
+        &__title {
+            &-sometitle {
+                font-size: 40px;
+                text-align: center;
+            }
+            &-zag {
+                font-size: 60px;
+                text-align: center;
+            }
+            &-item {
+                font-size: 20px;
+                line-height: 29px;
+                margin-left: 10px;
+            }
+        }
+    }
+    .reservation {
+        &__title {
+            font-size: 35px;
+        }
+    }
+    .footer {
+        &__inner {
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width: 524px) {
+    .about {
+        .card {
+            &-img {
+                width: 300px;
+                height: 350px;
+            }
+        }
+    }
+    .prom {
+        &__titlefirst {
+            font-size: 40px;
+        }
+        &__reser {
+            &-item,
+            &-bodyItem {
+                width: 400px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            &-btn {
+                padding: 20px 80px;
+                font-size: 19px;
+            }
+        }
+    }
+    .contact {
+        &__form {
+            &-FIO,
+            &-nameCLD,
+            &-tel {
+                width: 305px;
+            }
+            &-btn {
+                padding: 20px 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 479px) {
+    .prom {
+        &__slider {
+            height: 450px;
+            &-inner {
+                width: 400px;
+            }
+        }
+    }
+}
+
+@media (max-width: 461px) {
+    .header {
+        &__title {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            &-btn {
+                padding: 16px 10px;
+            }
+        }
+    }
+}
+@media (max-width: 444px) {
+    .prom {
+        &__titlefirst {
+            font-size: 30px;
+        }
+        &__titlesecond {
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 436px) {
+    .reservation {
+        &__title {
+            font-size: 32px;
+        }
+    }
+    .prom {
+        &__slider {
+            height: 500px;
+            &-inner {
+                width: 290px;
+                margin-top: 250px;
+            }
+        }
+    }
+    .howGoing {
+        &__title {
+            font-size: 30px;
+        }
+    }
+}
+
+@media (max-width: 415px) {
+    .prom {
+        &__titlefirst {
+            font-size: 32px;
+        }
+        &__reser {
+            &-item,
+            &-bodyItem {
+                width: 350px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            &-btn {
+                padding: 20px 60px;
+                font-size: 19px;
+            }
+        }
+    }
+    .contact {
+        &__garant {
+            &-img {
+                img {
+                    width: 300px;
+                    height: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 399px) {
+    .header {
+        &__title {
+            &-sometitle {
+                font-size: 35px;
+                text-align: center;
+            }
+            &-zag {
+                font-size: 55px;
+            }
+        }
+    }
+    .about {
+        &__inner {
+            justify-content: flex-start;
+        }
+        .card {
+            &__mainText {
+                width: 180px;
+            }
+            &__statisticNum-items {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+    }
+    .prom {
+        &__reser {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__titlesecond {
+            font-size: 28px;
+        }
+        &__slider {
+            &-btnl,
+            &-btnr {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 376px) {
+    .reservation {
+        &__title {
+            font-size: 25px;
+        }
+    }
+    .prom {
+        &__titlefirst {
+            font-size: 30px;
+        }
+        &__reser {
+            &-item,
+            &-bodyItem {
+                width: 300px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            &-btn {
+                padding: 20px 10px;
+                font-size: 19px;
+            }
+            &-price {
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 357px) {
+    .contact {
+        &__form {
+            &-title {
+                font-size: 35px;
+            }
+        }
+        &__garant {
+            &-title {
+                font-size: 35px;
+            }
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .header {
+        &__title {
+            &-sometitle {
+                font-size: 28px;
+                text-align: center;
+            }
+            &-zag {
+                font-size: 38px;
+            }
+        }
+    }
+    .howGoing {
+        &__title {
+            width: 300px;
+            font-size: 32px;
+        }
+    }
+    .prom {
+        &__titlesecond {
+            font-size: 25px;
+        }
+    }
+}
